@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+
+html, body, a {
+  color: $main-text-color;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.agm-map-container-inner{
+  border-radius: 7px !important;
+}
+
+.apartment {
+  color: #a72da3;
+}
+
+.condo {
+  color: #d68000;
+}
+
+.house {
+  color: #bf1818;
+}

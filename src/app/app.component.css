@@ -1,0 +1,13 @@
+.bounce {
+  position: absolute;
+  width: 80vw;
+  height: 40vh;
+  margin: -2%;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0012b5+0,194284+29,960082+100&1+0,0.84+100 */
+background: -moz-linear-gradient(left, rgba(0,18,181,1) 0%, rgba(25,66,132,0.95) 29%, rgba(150,0,130,0.84) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,18,181,1) 0%,rgba(25,66,132,0.95) 29%,rgba(150,0,130,0.84) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,18,181,1) 0%,rgba(25,66,132,0.95) 29%,rgba(150,0,130,0.84) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0012b5', endColorstr='#d6960082',GradientType=1 ); /* IE6-9 */
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  z-index: -1;
+}
